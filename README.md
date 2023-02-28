@@ -2,7 +2,7 @@
 
 ## Description
 
-This project that I have created is a daily planner that will allow the user to schedule and track events every hour during the work day. I created this project to help myself be more organized and manage time more efficiently throughout the day. This planner will allow the user to type an event into each text area and save it. When the page is reloaded, the task will still display in the text area! Also, the planner is color-coded based on whether an event is in the past, present or future. Past hours are displayed with a gray background in the text area while the present hour is displayed with a red backgrout and future hours are displayed with a green background
+This project that I have created is a daily planner that will allow the user to schedule and track events every hour during the work day. I created this project to help myself be more organized and manage time more efficiently throughout the day. This planner will allow the user to type an event into each text area and save it. When the page is reloaded, the task will still display in the text area! Also, the planner is color-coded based on whether an event is in the past, present or future. Past hours are displayed with a gray background in the text area while the present hour is displayed with a red background and future hours are displayed with a green background.
 
 ## Installation
 
@@ -24,4 +24,4 @@ I completed this project on my own with no help.
 
 ## License
 
-This application uses the MIT License
+This application uses the MIT License.
