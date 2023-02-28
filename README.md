@@ -1,100 +1,27 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Daily Planner
 
-## Your Task
+## Description
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+This project that I have created is a daily planner that will allow the user to schedule and track events every hour during the work day. I created this project to help myself be more organized and manage time more efficiently throughout the day. This planner will allow the user to type an event into each text area and save it. When the page is reloaded, the task will still display in the text area! Also, the planner is color-coded based on whether an event is in the past, present or future. Past hours are displayed with a gray background in the text area while the present hour is displayed with a red backgrout and future hours are displayed with a green background
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+## Installation
 
-## User Story
+No installation is required for this project. You will only need to enter the URL in your browser to access this application. 
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+## Usage
 
-## Acceptance Criteria
+Once you load the URL into your browser the page will display with the current date at the top of the page. 
+Scroll down to access the planner. Each hour of the work day starting at 8AM and ending at 6PM will be accounted for within the planner. You can select the text area next to the corresponding hour and type whatever you want to in there. Once you click the save button, your task will be saved to local storage. When you reload the page, the task will still display under the corresponding hour. 
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+URL: https://thomasjshea.github.io/Daily-Planner/
 
-The following animation demonstrates the application functionality:
+![Screenshot-1](./Assets/images/Screenshot-1.png)
+![Screenshot-2](./Assets/images/Screenshot-2.png)
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+## Credits
 
-## Grading Requirements
+I completed this project on my own with no help. 
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+## License
 
-This Challenge is graded based on the following criteria:
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
-# Daily-Planner
+This application uses the MIT License
